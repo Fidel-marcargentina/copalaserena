@@ -23,7 +23,7 @@ html{scroll-behavior:smooth;overflow-x:hidden}
 body{background:var(--bk);color:var(--bone);font-family:var(--ff-b);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img,video{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
-html[data-lang=es] [lang=en],html[data-lang=en] [lang=es]{display:none!important}
+html[data-lang=es] [lang=en],html[data-lang=es] [lang=pt],html[data-lang=en] [lang=es],html[data-lang=en] [lang=pt],html[data-lang=pt] [lang=es],html[data-lang=pt] [lang=en]{display:none!important}
 .wrap{width:min(1180px,100% - 40px);margin-inline:auto}
 .eyebrow{font-family:var(--ff-c);font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:14px;color:var(--gold);display:flex;align-items:center;gap:14px}
 .eyebrow::before{content:"";width:46px;height:2px;background:var(--gold)}
@@ -206,17 +206,17 @@ footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
 <nav id="nav"><div class="wrap">
  <a href="#top" class="brand"><i></i>COPA LA SERENA <b>2027</b></a>
  <div class="links">
-  <a href="#camino"><span lang="es">El camino</span><span lang="en">The road</span></a>
-  <a href="#final"><span lang="es">La final</span><span lang="en">The final</span></a>
-  <a href="#copas"><span lang="es">Las copas</span><span lang="en">The cups</span></a>
-  <a href="#categorias"><span lang="es">Categorías</span><span lang="en">Categories</span></a>
-  <a href="#campeon"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span></a>
+  <a href="#camino"><span lang="es">El camino</span><span lang="en">The road</span><span lang="pt">O caminho</span></a>
+  <a href="#final"><span lang="es">La final</span><span lang="en">The final</span><span lang="pt">A final</span></a>
+  <a href="#copas"><span lang="es">Las copas</span><span lang="en">The cups</span><span lang="pt">As taças</span></a>
+  <a href="#categorias"><span lang="es">Categorías</span><span lang="en">Categories</span><span lang="pt">Categorias</span></a>
+  <a href="#campeon"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span><span lang="pt">Campeão 2026</span></a>
   <a href="#sponsors">Sponsors</a>
   <a href="#faq">FAQ</a>
  </div>
  <div class="nav-r">
-  <div class="lang"><button data-l="es" class="on">ES</button><button data-l="en">EN</button></div>
-  <a class="btn btn-gold nav-cta js-wa" href="#"><span lang="es">Inscríbete</span><span lang="en">Sign up</span></a>
+  <div class="lang"><button data-l="es" class="on">ES</button><button data-l="en">EN</button><button data-l="pt">PT</button></div>
+  <a class="btn btn-gold nav-cta js-wa" href="#"><span lang="es">Inscríbete</span><span lang="en">Sign up</span><span lang="pt">Inscreva-se</span></a>
  </div>
 </div></nav>
 
@@ -225,20 +225,20 @@ footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
  <video autoplay muted loop playsinline poster="faro.jpg"><source src="hero.mp4" type="video/mp4"></video>
  <div class="beam"></div>
  <div class="wrap">
-  <div class="eyebrow"><span lang="es">Torneo internacional de fútbol 11 · Chile · Argentina</span><span lang="en">International 11-a-side tournament · Chile · Argentina</span></div>
+  <div class="eyebrow"><span lang="es">Torneo internacional de fútbol 11 · Chile · Argentina</span><span lang="en">International 11-a-side tournament · Chile · Argentina</span><span lang="pt">Torneio internacional de futebol de campo · Chile · Argentina</span></div>
   <h1><span>Copa</span><span>La Serena</span><span class="yr">2027</span></h1>
   <div class="hero-row">
-   <div class="date"><span lang="es">14 — 17 de enero</span><span lang="en">January 14 — 17</span><small><span lang="es">La Serena · Chile</span><span lang="en">La Serena · Chile</span></small></div>
+   <div class="date"><span lang="es">14 — 17 de enero</span><span lang="en">January 14 — 17</span><span lang="pt">14 — 17 de janeiro</span><small><span lang="es">La Serena · Chile</span><span lang="en">La Serena · Chile</span><span lang="pt">La Serena · Chile</span></small></div>
    <div class="cd" id="cd" aria-label="Cuenta regresiva">
-    <div><b id="cd-d">00</b><span lang="es">Días</span><span lang="en">Days</span></div>
-    <div><b id="cd-h">00</b><span lang="es">Horas</span><span lang="en">Hours</span></div>
-    <div><b id="cd-m">00</b><span lang="es">Min</span><span lang="en">Min</span></div>
-    <div><b id="cd-s">00</b><span lang="es">Seg</span><span lang="en">Sec</span></div>
+    <div><b id="cd-d">00</b><span lang="es">Días</span><span lang="en">Days</span><span lang="pt">Dias</span></div>
+    <div><b id="cd-h">00</b><span lang="es">Horas</span><span lang="en">Hours</span><span lang="pt">Horas</span></div>
+    <div><b id="cd-m">00</b><span lang="es">Min</span><span lang="en">Min</span><span lang="pt">Min</span></div>
+    <div><b id="cd-s">00</b><span lang="es">Seg</span><span lang="en">Sec</span><span lang="pt">Seg</span></div>
    </div>
   </div>
   <div class="hero-cta">
-   <a class="btn btn-gold js-wa" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg><span lang="es">Inscribe a tu equipo</span><span lang="en">Enter your team</span></a>
-   <a class="btn btn-ghost" href="#campeon"><span lang="es">Mira la final 2026</span><span lang="en">Watch the 2026 final</span></a>
+   <a class="btn btn-gold js-wa" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg><span lang="es">Inscribe a tu equipo</span><span lang="en">Enter your team</span><span lang="pt">Inscreva seu time</span></a>
+   <a class="btn btn-ghost" href="#campeon"><span lang="es">Mira la final 2026</span><span lang="en">Watch the 2026 final</span><span lang="pt">Veja a final de 2026</span></a>
   </div>
  </div>
 </header>
@@ -249,115 +249,115 @@ footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
 </div></div>
 
 <section id="camino"><div class="wrap">
- <div class="eyebrow reveal"><span lang="es">El camino a la final</span><span lang="en">The road to the final</span></div>
- <h2 class="reveal"><span lang="es">Cuatro días.<br><em>Una final.</em></span><span lang="en">Four days.<br><em>One final.</em></span></h2>
- <p class="lead reveal"><span lang="es">De la presentación en el Faro a la final en un estadio profesional. Así se vive Copa La Serena.</span><span lang="en">From the opening night at the Lighthouse to a final in a professional stadium. This is Copa La Serena.</span></p>
+ <div class="eyebrow reveal"><span lang="es">El camino a la final</span><span lang="en">The road to the final</span><span lang="pt">14–17 janeiro<em>✦</em>Estádio La Portada<em>✦</em>Finais ao vivo<em>✦</em>Livre · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Três taças<em>✦</em>14–17 janeiro<em>✦</em>Estádio La Portada<em>✦</em>Finais ao vivo<em>✦</em>Livre · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Três taças<em>✦</em></span></div>
+ <h2 class="reveal"><span lang="es">Cuatro días.<br><em>Una final.</em></span><span lang="en">Four days.<br><em>One final.</em></span><span lang="pt">Quatro dias.<br><em>Uma final.</em></span></h2>
+ <p class="lead reveal"><span lang="es">De la presentación en el Faro a la final en un estadio profesional. Así se vive Copa La Serena.</span><span lang="en">From the opening night at the Lighthouse to a final in a professional stadium. This is Copa La Serena.</span><span lang="pt">Da apresentação no Farol à final num estádio profissional. Assim se vive a Copa La Serena.</span></p>
  <div class="road">
   <div class="stage reveal"><img src="faro.jpg" alt="Faro Monumental de La Serena" loading="lazy"><div class="in">
-   <div class="ph"><span lang="es">Fase 1 · Jueves</span><span lang="en">Stage 1 · Thursday</span></div><div class="day">14</div>
-   <h3><span lang="es">Presentación oficial</span><span lang="en">Official opening</span></h3>
-   <p><span lang="es">Check-in, entrega del kit oficial y presentación de los equipos en el Faro Monumental, con cocktail de bienvenida.</span><span lang="en">Check-in, official kit and team presentation at the Faro Monumental, with a welcome cocktail.</span></p></div></div>
+   <div class="ph"><span lang="es">Fase 1 · Jueves</span><span lang="en">Stage 1 · Thursday</span><span lang="pt">Fase 1 · Quinta</span></div><div class="day">14</div>
+   <h3><span lang="es">Presentación oficial</span><span lang="en">Official opening</span><span lang="pt">Apresentação oficial</span></h3>
+   <p><span lang="es">Check-in, entrega del kit oficial y presentación de los equipos en el Faro Monumental, con cocktail de bienvenida.</span><span lang="en">Check-in, official kit and team presentation at the Faro Monumental, with a welcome cocktail.</span><span lang="pt">Check-in, entrega do kit oficial e apresentação dos times no Farol Monumental, com coquetel de boas-vindas.</span></p></div></div>
   <div class="stage reveal"><img src="duelo.jpg" alt="" loading="lazy"><div class="in">
-   <div class="ph"><span lang="es">Fase 2 · Viernes</span><span lang="en">Stage 2 · Friday</span></div><div class="day">15</div>
-   <h3><span lang="es">Predio Los Llanos</span><span lang="en">Los Llanos grounds</span></h3>
-   <p><span lang="es">Dos partidos por equipo, con ternas arbitrales, hidratación y kinesiólogos.</span><span lang="en">Two matches per team, with full referee crews, hydration and physios.</span></p></div></div>
+   <div class="ph"><span lang="es">Fase 2 · Viernes</span><span lang="en">Stage 2 · Friday</span><span lang="pt">Fase 2 · Sexta</span></div><div class="day">15</div>
+   <h3><span lang="es">Predio Los Llanos</span><span lang="en">Los Llanos grounds</span><span lang="pt">Predio Los Llanos</span></h3>
+   <p><span lang="es">Dos partidos por equipo, con ternas arbitrales, hidratación y kinesiólogos.</span><span lang="en">Two matches per team, with full referee crews, hydration and physios.</span><span lang="pt">Dois jogos por time, com trio de arbitragem, hidratação e fisioterapeutas.</span></p></div></div>
   <div class="stage final reveal"><img src="estadio.jpg" alt="Estadio La Portada" loading="lazy"><div class="in">
-   <div class="ph"><span lang="es">La final · Sábado</span><span lang="en">The final · Saturday</span></div><div class="day">16</div>
+   <div class="ph"><span lang="es">La final · Sábado</span><span lang="en">The final · Saturday</span><span lang="pt">A final · Sábado</span></div><div class="day">16</div>
    <h3>Estadio La Portada</h3>
-   <p><span lang="es">Cada categoría juega su final en el estadio, en vivo y con relatores. Premiación en cancha y cena de despedida.</span><span lang="en">Each category plays its final in the stadium, broadcast live with commentators. On-pitch ceremony and farewell dinner.</span></p></div></div>
+   <p><span lang="es">Cada categoría juega su final en el estadio, en vivo y con relatores. Premiación en cancha y cena de despedida.</span><span lang="en">Each category plays its final in the stadium, broadcast live with commentators. On-pitch ceremony and farewell dinner.</span><span lang="pt">Cada categoria joga sua final no estádio, ao vivo e com narradores. Premiação em campo e jantar de despedida.</span></p></div></div>
  </div>
 </div></section>
 
 <section class="final-sec" id="final">
  <img src="estadio.jpg" alt="" loading="lazy">
  <div class="wrap">
-  <div class="eyebrow reveal"><span lang="es">Sábado 16 · Estadio La Portada</span><span lang="en">Saturday 16 · Estadio La Portada</span></div>
-  <h2 class="reveal"><span lang="es">Tu final.<br><em>En vivo.</em></span><span lang="en">Your final.<br><em>Live.</em></span></h2>
-  <p class="lead reveal"><span lang="es">Un estadio profesional, cámaras, relatores y entrevistas en cancha. La final que siempre viste por televisión, ahora la juegas tú.</span><span lang="en">A professional stadium, cameras, commentators and pitch-side interviews. The kind of final you always watched on TV — now you play it.</span></p>
+  <div class="eyebrow reveal"><span lang="es">Sábado 16 · Estadio La Portada</span><span lang="en">Saturday 16 · Estadio La Portada</span><span lang="pt">Sábado 16 · Estádio La Portada</span></div>
+  <h2 class="reveal"><span lang="es">Tu final.<br><em>En vivo.</em></span><span lang="en">Your final.<br><em>Live.</em></span><span lang="pt">Sua final.<br><em>Ao vivo.</em></span></h2>
+  <p class="lead reveal"><span lang="es">Un estadio profesional, cámaras, relatores y entrevistas en cancha. La final que siempre viste por televisión, ahora la juegas tú.</span><span lang="en">A professional stadium, cameras, commentators and pitch-side interviews. The kind of final you always watched on TV — now you play it.</span><span lang="pt">Um estádio profissional, câmeras, narradores e entrevistas em campo. A final que você sempre viu pela TV, agora quem joga é você.</span></p>
   <div class="stats reveal">
-   <div><b>3</b><span lang="es">Cámaras en vivo</span><span lang="en">Live cameras</span></div>
-   <div><b>3</b><span lang="es">Copas</span><span lang="en">Cups</span></div>
-   <div><b>3</b><span lang="es">Finales</span><span lang="en">Finals</span></div>
-   <div><b>1</b><span lang="es">Estadio</span><span lang="en">Stadium</span></div>
+   <div><b>3</b><span lang="es">Cámaras en vivo</span><span lang="en">Live cameras</span><span lang="pt">Câmeras ao vivo</span></div>
+   <div><b>3</b><span lang="es">Copas</span><span lang="en">Cups</span><span lang="pt">Taças</span></div>
+   <div><b>3</b><span lang="es">Finales</span><span lang="en">Finals</span><span lang="pt">Finais</span></div>
+   <div><b>1</b><span lang="es">Estadio</span><span lang="en">Stadium</span><span lang="pt">Estádio</span></div>
   </div>
  </div>
 </section>
 
 <section id="copas"><div class="wrap">
- <div class="eyebrow reveal"><span lang="es">Los trofeos</span><span lang="en">The trophies</span></div>
- <h2 class="reveal"><span lang="es">Tres copas.<br><em>Tu nombre en una.</em></span><span lang="en">Three cups.<br><em>Your name on one.</em></span></h2>
+ <div class="eyebrow reveal"><span lang="es">Los trofeos</span><span lang="en">The trophies</span><span lang="pt">Os troféus</span></div>
+ <h2 class="reveal"><span lang="es">Tres copas.<br><em>Tu nombre en una.</em></span><span lang="en">Three cups.<br><em>Your name on one.</em></span><span lang="pt">Três taças.<br><em>Seu nome em uma.</em></span></h2>
  <div class="cups">
   <div class="cup main reveal"><img src="copa.jpg" alt="Copa La Serena" loading="lazy"><div class="in">
-   <div class="tag"><span lang="es">La ciudad</span><span lang="en">The city</span></div><h3>Copa<br>La Serena</h3>
-   <p><span lang="es">El trofeo que le da nombre al torneo.</span><span lang="en">The trophy that gives the tournament its name.</span></p></div></div>
+   <div class="tag"><span lang="es">La ciudad</span><span lang="en">The city</span><span lang="pt">A cidade</span></div><h3>Copa<br>La Serena</h3>
+   <p><span lang="es">El trofeo que le da nombre al torneo.</span><span lang="en">The trophy that gives the tournament its name.</span><span lang="pt">O troféu que dá nome ao torneio.</span></p></div></div>
   <div class="cup reveal"><svg viewBox="0 0 64 64" fill="none" stroke="#C9A227" stroke-width="2.5"><path d="M4 50l16-24 10 14 8-10 22 20z"/><circle cx="46" cy="14" r="6"/></svg>
-   <div class="tag"><span lang="es">El valle</span><span lang="en">The valley</span></div><h3>Copa<br>Elqui</h3>
-   <p><span lang="es">Inspirada en el Valle de Elqui, el corazón de la región.</span><span lang="en">Inspired by the Elqui Valley, the heart of the region.</span></p></div>
+   <div class="tag"><span lang="es">El valle</span><span lang="en">The valley</span><span lang="pt">O vale</span></div><h3>Copa<br>Elqui</h3>
+   <p><span lang="es">Inspirada en el Valle de Elqui, el corazón de la región.</span><span lang="en">Inspired by the Elqui Valley, the heart of the region.</span><span lang="pt">Inspirada no Vale do Elqui, o coração da região.</span></p></div>
   <div class="cup reveal"><svg viewBox="0 0 64 64" fill="none" stroke="#C9A227" stroke-width="2.5"><path d="M2 30c8-8 14-8 20 0s12 8 20 0 14-8 20 0M2 46c8-8 14-8 20 0s12 8 20 0 14-8 20 0"/></svg>
-   <div class="tag"><span lang="es">El mar</span><span lang="en">The sea</span></div><h3>Copa<br>Pacífico</h3>
-   <p><span lang="es">Un homenaje al océano que mira la ciudad.</span><span lang="en">A tribute to the ocean the city looks out on.</span></p></div>
+   <div class="tag"><span lang="es">El mar</span><span lang="en">The sea</span><span lang="pt">O mar</span></div><h3>Copa<br>Pacífico</h3>
+   <p><span lang="es">Un homenaje al océano que mira la ciudad.</span><span lang="en">A tribute to the ocean the city looks out on.</span><span lang="pt">Uma homenagem ao oceano que a cidade contempla.</span></p></div>
  </div>
- <p class="cups-note reveal"><span lang="es">Cada copa es exclusiva, con diseño propio, y lleva una chapa que registra al campeón de cada año. Además, medalla conmemorativa para cada jugador, reconocimientos individuales y premiación en el estadio.</span><span lang="en">Each cup is unique, with its own design and a plate that records every year's champion. Plus a commemorative medal for every player, individual awards and an on-pitch ceremony.</span></p>
+ <p class="cups-note reveal"><span lang="es">Cada copa es exclusiva, con diseño propio, y lleva una chapa que registra al campeón de cada año. Además, medalla conmemorativa para cada jugador, reconocimientos individuales y premiación en el estadio.</span><span lang="en">Each cup is unique, with its own design and a plate that records every year's champion. Plus a commemorative medal for every player, individual awards and an on-pitch ceremony.</span><span lang="pt">Cada taça é exclusiva, com design próprio, e leva uma placa que registra o campeão de cada ano. Além disso, medalha comemorativa para cada jogador, prêmios individuais e cerimônia de premiação no estádio.</span></p>
 </div></section>
 
 <section id="categorias" style="padding-top:40px"><div class="wrap split">
  <div class="pic reveal"><img src="accion.jpg" alt="" loading="lazy"></div>
  <div>
-  <div class="eyebrow reveal"><span lang="es">Categorías</span><span lang="en">Categories</span></div>
-  <h2 class="reveal"><span lang="es">Elige<br><em>tu final.</em></span><span lang="en">Choose<br><em>your final.</em></span></h2>
+  <div class="eyebrow reveal"><span lang="es">Categorías</span><span lang="en">Categories</span><span lang="pt">Categorias</span></div>
+  <h2 class="reveal"><span lang="es">Elige<br><em>tu final.</em></span><span lang="en">Choose<br><em>your final.</em></span><span lang="pt">Escolha<br><em>sua final.</em></span></h2>
   <div class="cats reveal">
-   <div class="cat"><b>Libre</b><span lang="es">Todo competidor</span><span lang="en">Open</span></div>
+   <div class="cat"><b>Libre</b><span lang="es">Todo competidor</span><span lang="en">Open</span><span lang="pt">Livre</span></div>
    <div class="cat"><b>+28</b><span>Senior</span></div>
    <div class="cat"><b>+38</b><span>Super Senior</span></div>
   </div>
-  <p class="lead reveal"><span lang="es">Planteles de 13 a 20 jugadores. La edad se cuenta por año: alcanza con cumplir 28 o 38 durante 2027. 12 cupos en total, por orden de reserva.</span><span lang="en">Squads of 13 to 20 players. Age is counted by year: you only need to turn 28 or 38 during 2027. 12 places in total, first come, first served.</span></p>
+  <p class="lead reveal"><span lang="es">Planteles de 13 a 20 jugadores. La edad se cuenta por año: alcanza con cumplir 28 o 38 durante 2027. 12 cupos en total, por orden de reserva.</span><span lang="en">Squads of 13 to 20 players. Age is counted by year: you only need to turn 28 or 38 during 2027. 12 places in total, first come, first served.</span><span lang="pt">Elencos de 13 a 20 jogadores. A idade é contada por ano: basta completar 28 ou 38 durante 2027. 12 vagas no total, por ordem de reserva.</span></p>
   <ul class="list reveal">
-   <li><span lang="es">Kit oficial: camiseta, short y credencial</span><span lang="en">Official kit: shirt, shorts and credential</span></li>
-   <li><span lang="es">Canchas, ternas arbitrales y pelotas</span><span lang="en">Pitches, referee crews and balls</span></li>
-   <li><span lang="es">Kinesiólogos y zona de relajación</span><span lang="en">Physios and recovery area</span></li>
-   <li><span lang="es">Ambulancia en las canchas</span><span lang="en">Ambulance on site</span></li>
-   <li><span lang="es">Seguro individual</span><span lang="en">Individual insurance</span></li>
-   <li><span lang="es">Almuerzos y cena de despedida</span><span lang="en">Lunches and farewell dinner</span></li>
-   <li><span lang="es">Fotos y video profesional</span><span lang="en">Professional photo and video</span></li>
-   <li><span lang="es">Opción con hotel y traslados internos</span><span lang="en">Option with hotel and local transfers</span></li>
+   <li><span lang="es">Kit oficial: camiseta, short y credencial</span><span lang="en">Official kit: shirt, shorts and credential</span><span lang="pt">Kit oficial: camisa, calção e credencial</span></li>
+   <li><span lang="es">Canchas, ternas arbitrales y pelotas</span><span lang="en">Pitches, referee crews and balls</span><span lang="pt">Campos, trios de arbitragem e bolas</span></li>
+   <li><span lang="es">Kinesiólogos y zona de relajación</span><span lang="en">Physios and recovery area</span><span lang="pt">Fisioterapeutas e área de relaxamento</span></li>
+   <li><span lang="es">Ambulancia en las canchas</span><span lang="en">Ambulance on site</span><span lang="pt">Ambulância nos campos</span></li>
+   <li><span lang="es">Seguro individual</span><span lang="en">Individual insurance</span><span lang="pt">Seguro individual</span></li>
+   <li><span lang="es">Almuerzos y cena de despedida</span><span lang="en">Lunches and farewell dinner</span><span lang="pt">Almoços e jantar de despedida</span></li>
+   <li><span lang="es">Fotos y video profesional</span><span lang="en">Professional photo and video</span><span lang="pt">Fotos e vídeo profissional</span></li>
+   <li><span lang="es">Opción con hotel y traslados internos</span><span lang="en">Option with hotel and local transfers</span><span lang="pt">Opção com hotel e traslados internos</span></li>
   </ul>
  </div>
 </div></section>
 
 <section class="dt"><div class="wrap">
- <div class="eyebrow reveal"><span lang="es">Cuerpo técnico</span><span lang="en">Coaching staff</span></div>
- <h2 class="reveal"><span lang="es">El banco también<br><em>vive la final.</em></span><span lang="en">The bench lives<br><em>the final too.</em></span></h2>
+ <div class="eyebrow reveal"><span lang="es">Cuerpo técnico</span><span lang="en">Coaching staff</span><span lang="pt">Comissão técnica</span></div>
+ <h2 class="reveal"><span lang="es">El banco también<br><em>vive la final.</em></span><span lang="en">The bench lives<br><em>the final too.</em></span><span lang="pt">O banco também<br><em>vive a final.</em></span></h2>
  <div class="dt-grid reveal">
-  <div class="dt-col"><h4><span lang="es">Jueves</span><span lang="en">Thursday</span></h4><h5><span lang="es">La previa</span><span lang="en">The build-up</span></h5><ul>
-   <li><span lang="es">Congreso técnico con organización y árbitros</span><span lang="en">Technical meeting with organisers and referees</span></li>
-   <li><span lang="es">Kit oficial de DT</span><span lang="en">Official coach kit</span></li>
-   <li><span lang="es">Polera piqué con su nombre</span><span lang="en">Polo shirt with their name</span></li></ul></div>
-  <div class="dt-col"><h4><span lang="es">Viernes</span><span lang="en">Friday</span></h4><h5><span lang="es">Prepara la final</span><span lang="en">Prepare the final</span></h5><ul>
-   <li><span lang="es">Foto oficial del cuerpo técnico</span><span lang="en">Official staff photo</span></li>
-   <li><span lang="es">Video de uno de sus partidos para análisis</span><span lang="en">Video of one of their matches for analysis</span></li>
-   <li><span lang="es">Sala reservada en la noche para la charla técnica</span><span lang="en">Private room at night for the team talk</span></li></ul></div>
-  <div class="dt-col"><h4><span lang="es">Sábado</span><span lang="en">Saturday</span></h4><h5><span lang="es">Dirige en La Portada</span><span lang="en">Coach at La Portada</span></h5><ul>
-   <li><span lang="es">Credencial con acceso al banco y zona técnica</span><span lang="en">Credential with bench and technical-area access</span></li>
-   <li><span lang="es">Conferencia de prensa pre match</span><span lang="en">Pre-match press conference</span></li>
-   <li><span lang="es">Firma la planilla y entrega la cinta al capitán</span><span lang="en">Signs the team sheet and hands the armband to the captain</span></li>
-   <li><span lang="es">DT con micrófono en la transmisión</span><span lang="en">Coach mic'd up on the broadcast</span></li></ul></div>
-  <div class="dt-col"><h4><span lang="es">Después del pitazo</span><span lang="en">After the whistle</span></h4><h5><span lang="es">Habla como profesional</span><span lang="en">Speak like a pro</span></h5><ul>
-   <li><span lang="es">Entrevista post partido</span><span lang="en">Post-match interview</span></li>
-   <li><span lang="es">Premio al mejor DT</span><span lang="en">Best coach award</span></li>
-   <li><span lang="es">Mesa de entrenadores con Matías Rodríguez</span><span lang="en">Coaches' table with Matías Rodríguez</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Jueves</span><span lang="en">Thursday</span><span lang="pt">Quinta</span></h4><h5><span lang="es">La previa</span><span lang="en">The build-up</span><span lang="pt">A preliminar</span></h5><ul>
+   <li><span lang="es">Congreso técnico con organización y árbitros</span><span lang="en">Technical meeting with organisers and referees</span><span lang="pt">Congresso técnico com a organização e os árbitros</span></li>
+   <li><span lang="es">Kit oficial de DT</span><span lang="en">Official coach kit</span><span lang="pt">Kit oficial de técnico</span></li>
+   <li><span lang="es">Polera piqué con su nombre</span><span lang="en">Polo shirt with their name</span><span lang="pt">Camisa polo com o seu nome</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Viernes</span><span lang="en">Friday</span><span lang="pt">Sexta</span></h4><h5><span lang="es">Prepara la final</span><span lang="en">Prepare the final</span><span lang="pt">Prepare a final</span></h5><ul>
+   <li><span lang="es">Foto oficial del cuerpo técnico</span><span lang="en">Official staff photo</span><span lang="pt">Foto oficial da comissão técnica</span></li>
+   <li><span lang="es">Video de uno de sus partidos para análisis</span><span lang="en">Video of one of their matches for analysis</span><span lang="pt">Vídeo de um dos seus jogos para análise</span></li>
+   <li><span lang="es">Sala reservada en la noche para la charla técnica</span><span lang="en">Private room at night for the team talk</span><span lang="pt">Sala reservada à noite para a preleção</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Sábado</span><span lang="en">Saturday</span><span lang="pt">Sábado</span></h4><h5><span lang="es">Dirige en La Portada</span><span lang="en">Coach at La Portada</span><span lang="pt">Comande no La Portada</span></h5><ul>
+   <li><span lang="es">Credencial con acceso al banco y zona técnica</span><span lang="en">Credential with bench and technical-area access</span><span lang="pt">Credencial com acesso ao banco e à área técnica</span></li>
+   <li><span lang="es">Conferencia de prensa pre match</span><span lang="en">Pre-match press conference</span><span lang="pt">Coletiva de imprensa pré-jogo</span></li>
+   <li><span lang="es">Firma la planilla y entrega la cinta al capitán</span><span lang="en">Signs the team sheet and hands the armband to the captain</span><span lang="pt">Assina a súmula e entrega a braçadeira ao capitão</span></li>
+   <li><span lang="es">DT con micrófono en la transmisión</span><span lang="en">Coach mic'd up on the broadcast</span><span lang="pt">Técnico com microfone na transmissão</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Después del pitazo</span><span lang="en">After the whistle</span><span lang="pt">Depois do apito</span></h4><h5><span lang="es">Habla como profesional</span><span lang="en">Speak like a pro</span><span lang="pt">Fale como profissional</span></h5><ul>
+   <li><span lang="es">Entrevista post partido</span><span lang="en">Post-match interview</span><span lang="pt">Entrevista pós-jogo</span></li>
+   <li><span lang="es">Premio al mejor DT</span><span lang="en">Best coach award</span><span lang="pt">Prêmio de melhor técnico</span></li>
+   <li><span lang="es">Mesa de entrenadores con Matías Rodríguez</span><span lang="en">Coaches' table with Matías Rodríguez</span><span lang="pt">Mesa de técnicos com Matías Rodríguez</span></li></ul></div>
  </div>
 </div></section>
 
 <section id="campeon"><div class="wrap">
- <div class="eyebrow reveal"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span></div>
- <h2 class="reveal"><span lang="es">Así se gana<br><em>en La Portada.</em></span><span lang="en">This is how you win<br><em>at La Portada.</em></span></h2>
+ <div class="eyebrow reveal"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span><span lang="pt">Campeão 2026</span></div>
+ <h2 class="reveal"><span lang="es">Así se gana<br><em>en La Portada.</em></span><span lang="en">This is how you win<br><em>at La Portada.</em></span><span lang="pt">Assim se ganha<br><em>no La Portada.</em></span></h2>
  <div class="champ reveal">
   <div class="media"><video muted loop playsinline preload="none" poster="campeon.jpg" id="champVid"><source src="hero.mp4" type="video/mp4"></video></div>
   <div class="txt">
-   <div class="eyebrow"><span lang="es">Final 2026</span><span lang="en">2026 final</span></div>
+   <div class="eyebrow"><span lang="es">Final 2026</span><span lang="en">2026 final</span><span lang="pt">Final 2026</span></div>
    <div class="team">Birra FC</div>
-   <div class="score"><b>3–3</b><span lang="es">Birra FC vs C.S. Dep. Argentino</span><span lang="en">Birra FC vs C.S. Dep. Argentino</span></div>
-   <p><span lang="es">Un 3 a 3 en los 90 y diez penales en el Estadio La Portada. Birra FC ganó la serie 5 a 4 y levantó la copa. En enero, el próximo puede ser tu equipo.</span><span lang="en">3–3 after 90 minutes and ten penalties at Estadio La Portada. Birra FC won the shoot-out 5–4 and lifted the cup. In January, it could be your team.</span></p>
+   <div class="score"><b>3–3</b><span lang="es">Birra FC vs C.S. Dep. Argentino</span><span lang="en">Birra FC vs C.S. Dep. Argentino</span><span lang="pt">Birra FC vs C.S. Dep. Argentino</span></div>
+   <p><span lang="es">Un 3 a 3 en los 90 y diez penales en el Estadio La Portada. Birra FC ganó la serie 5 a 4 y levantó la copa. En enero, el próximo puede ser tu equipo.</span><span lang="en">3–3 after 90 minutes and ten penalties at Estadio La Portada. Birra FC won the shoot-out 5–4 and lifted the cup. In January, it could be your team.</span><span lang="pt">3 a 3 no tempo normal e dez pênaltis no Estádio La Portada. O Birra FC venceu a disputa por 5 a 4 e levantou a taça. Em janeiro, o próximo pode ser o seu time.</span></p>
   </div>
  </div>
 </div></section>
@@ -365,52 +365,52 @@ footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
 <section class="sp" id="sponsors"><div class="wrap">
  <!-- SPONSORS 2027: cuando haya sponsors confirmados, quitar "hidden" y reemplazar cada bloque por <div><img src="sponsors-logo.png" alt="Nombre"></div> -->
  <div id="sp-oficiales" hidden>
-  <div class="eyebrow"><span lang="es">Sponsors oficiales</span><span lang="en">Official sponsors</span></div>
+  <div class="eyebrow"><span lang="es">Sponsors oficiales</span><span lang="en">Official sponsors</span><span lang="pt">Patrocinadores oficiais</span></div>
   <div class="sp-logos">
    <!-- <div><img src="sponsors-ejemplo.png" alt="Sponsor"></div> -->
   </div>
  </div>
  <div class="sp-grid" style="margin-top:0">
   <div>
-   <div class="eyebrow reveal"><span lang="es">Sponsors</span><span lang="en">Sponsors</span></div>
-   <h2 class="reveal"><span lang="es">Tu marca<br><em>en la final.</em></span><span lang="en">Your brand<br><em>in the final.</em></span></h2>
-   <p class="lead reveal"><span lang="es">Copa La Serena reúne a equipos de Chile y Argentina durante cuatro días, con presentación en el Faro Monumental y finales en el Estadio La Portada, transmitidas en vivo. Un público adulto, que viaja con su plantel y con su familia.</span><span lang="en">Copa La Serena brings together teams from Chile and Argentina for four days, with an opening night at the Faro Monumental and finals at Estadio La Portada, broadcast live. An adult audience travelling with their squads and families.</span></p>
-   <div class="hero-cta reveal"><a class="btn btn-gold js-wa-sp" href="#"><span lang="es">Quiero ser sponsor</span><span lang="en">Become a sponsor</span></a></div>
+   <div class="eyebrow reveal"><span lang="es">Sponsors</span><span lang="en">Sponsors</span><span lang="pt">Patrocinadores</span></div>
+   <h2 class="reveal"><span lang="es">Tu marca<br><em>en la final.</em></span><span lang="en">Your brand<br><em>in the final.</em></span><span lang="pt">Sua marca<br><em>na final.</em></span></h2>
+   <p class="lead reveal"><span lang="es">Copa La Serena reúne a equipos de Chile y Argentina durante cuatro días, con presentación en el Faro Monumental y finales en el Estadio La Portada, transmitidas en vivo. Un público adulto, que viaja con su plantel y con su familia.</span><span lang="en">Copa La Serena brings together teams from Chile and Argentina for four days, with an opening night at the Faro Monumental and finals at Estadio La Portada, broadcast live. An adult audience travelling with their squads and families.</span><span lang="pt">A Copa La Serena reúne times do Chile e da Argentina durante quatro dias, com apresentação no Farol Monumental e finais no Estádio La Portada, transmitidas ao vivo. Um público adulto, que viaja com seu elenco e sua família.</span></p>
+   <div class="hero-cta reveal"><a class="btn btn-gold js-wa-sp" href="#"><span lang="es">Quiero ser sponsor</span><span lang="en">Become a sponsor</span><span lang="pt">Quero ser patrocinador</span></a></div>
   </div>
   <div class="sp-items reveal">
-   <div><i></i><b><span lang="es">Transmisión</span><span lang="en">Broadcast</span></b><span lang="es">Presencia en la transmisión en vivo de las finales.</span><span lang="en">Presence in the live broadcast of the finals.</span></div>
-   <div><i></i><b><span lang="es">Estadio</span><span lang="en">Stadium</span></b><span lang="es">Tu marca en el Estadio La Portada el día de las finales.</span><span lang="en">Your brand at Estadio La Portada on finals day.</span></div>
-   <div><i></i><b><span lang="es">Faro Monumental</span><span lang="en">Faro Monumental</span></b><span lang="es">Activaciones en la presentación oficial y el cocktail.</span><span lang="en">Activations at the official opening and cocktail.</span></div>
-   <div><i></i><b><span lang="es">Redes y contenido</span><span lang="en">Social and content</span></b><span lang="es">Presencia en @laserena2027 y en el contenido del torneo.</span><span lang="en">Presence on @laserena2027 and tournament content.</span></div>
+   <div><i></i><b><span lang="es">Transmisión</span><span lang="en">Broadcast</span><span lang="pt">Transmissão</span></b><span lang="es">Presencia en la transmisión en vivo de las finales.</span><span lang="en">Presence in the live broadcast of the finals.</span><span lang="pt">Presença na transmissão ao vivo das finais.</span></div>
+   <div><i></i><b><span lang="es">Estadio</span><span lang="en">Stadium</span><span lang="pt">Estádio</span></b><span lang="es">Tu marca en el Estadio La Portada el día de las finales.</span><span lang="en">Your brand at Estadio La Portada on finals day.</span><span lang="pt">Sua marca no Estádio La Portada no dia das finais.</span></div>
+   <div><i></i><b><span lang="es">Faro Monumental</span><span lang="en">Faro Monumental</span><span lang="pt">Farol Monumental</span></b><span lang="es">Activaciones en la presentación oficial y el cocktail.</span><span lang="en">Activations at the official opening and cocktail.</span><span lang="pt">Ativações na apresentação oficial e no coquetel.</span></div>
+   <div><i></i><b><span lang="es">Redes y contenido</span><span lang="en">Social and content</span><span lang="pt">Redes e conteúdo</span></b><span lang="es">Presencia en @laserena2027 y en el contenido del torneo.</span><span lang="en">Presence on @laserena2027 and tournament content.</span><span lang="pt">Presença no @laserena2027 e no conteúdo do torneio.</span></div>
   </div>
  </div>
 </div></section>
 
 <section id="faq" style="padding-top:20px"><div class="wrap">
- <div class="eyebrow reveal"><span lang="es">Preguntas frecuentes</span><span lang="en">FAQ</span></div>
- <h2 class="reveal"><span lang="es">Todo lo que<br><em>necesitas saber.</em></span><span lang="en">Everything<br><em>you need to know.</em></span></h2>
+ <div class="eyebrow reveal"><span lang="es">Preguntas frecuentes</span><span lang="en">FAQ</span><span lang="pt">Perguntas frequentes</span></div>
+ <h2 class="reveal"><span lang="es">Todo lo que<br><em>necesitas saber.</em></span><span lang="en">Everything<br><em>you need to know.</em></span><span lang="pt">Tudo o que<br><em>você precisa saber.</em></span></h2>
  <div class="faq">
-  <details><summary><span lang="es">¿Cuántos jugadores puede tener el plantel?</span><span lang="en">How many players can a squad have?</span></summary><p><span lang="es">Entre 13 y 20 jugadores por equipo.</span><span lang="en">Between 13 and 20 players per team.</span></p></details>
-  <details><summary><span lang="es">¿Cómo se cuenta la edad?</span><span lang="en">How is age counted?</span></summary><p><span lang="es">Por año: para +28 alcanza con cumplir 28 durante 2027, y para +38, con cumplir 38.</span><span lang="en">By year: for +28 you only need to turn 28 during 2027, and for +38, turn 38.</span></p></details>
-  <details><summary><span lang="es">¿Cómo se reserva el cupo?</span><span lang="en">How do we book a place?</span></summary><p><span lang="es">Eliges categoría y opción, y aseguras el cupo con la primera cuota. El pago se completa hasta el 9 de enero de 2027. Hay 12 cupos en total, por orden de reserva.</span><span lang="en">Choose your category and option, and secure your place with the first instalment. Full payment is due by January 9, 2027. There are 12 places in total, first come, first served.</span></p></details>
-  <details><summary><span lang="es">¿Hay opción con hotel?</span><span lang="en">Is there a hotel option?</span></summary><p><span lang="es">Sí. Hay una opción con hotel 3 estrellas y traslados internos, disponible hasta el 30 de noviembre de 2026, y otra sin hotel ni traslados. Escríbenos y te mandamos el detalle.</span><span lang="en">Yes. There is an option with a 3-star hotel and local transfers, available until November 30, 2026, and one without hotel or transfers. Message us for details.</span></p></details>
-  <details><summary><span lang="es">¿Está incluido el viaje hasta La Serena?</span><span lang="en">Is travel to La Serena included?</span></summary><p><span lang="es">No. Cada delegación organiza su viaje hasta La Serena.</span><span lang="en">No. Each team arranges its own travel to La Serena.</span></p></details>
-  <details><summary><span lang="es">¿Qué incluye el cuerpo técnico?</span><span lang="en">What does the coaching staff get?</span></summary><p><span lang="es">El cuerpo técnico vive todo el torneo con su plantel, más una experiencia de entrenador profesional: credencial con acceso al banco, conferencia de prensa, premio al mejor DT y más.</span><span lang="en">The coaching staff lives the whole tournament with their squad, plus a professional coaching experience: bench credential, press conference, best coach award and more.</span></p></details>
+  <details><summary><span lang="es">¿Cuántos jugadores puede tener el plantel?</span><span lang="en">How many players can a squad have?</span><span lang="pt">Quantos jogadores o elenco pode ter?</span></summary><p><span lang="es">Entre 13 y 20 jugadores por equipo.</span><span lang="en">Between 13 and 20 players per team.</span><span lang="pt">Entre 13 e 20 jogadores por time.</span></p></details>
+  <details><summary><span lang="es">¿Cómo se cuenta la edad?</span><span lang="en">How is age counted?</span><span lang="pt">Como a idade é contada?</span></summary><p><span lang="es">Por año: para +28 alcanza con cumplir 28 durante 2027, y para +38, con cumplir 38.</span><span lang="en">By year: for +28 you only need to turn 28 during 2027, and for +38, turn 38.</span><span lang="pt">Por ano: para +28 basta completar 28 durante 2027, e para +38, completar 38.</span></p></details>
+  <details><summary><span lang="es">¿Cómo se reserva el cupo?</span><span lang="en">How do we book a place?</span><span lang="pt">Como reservar a vaga?</span></summary><p><span lang="es">Eliges categoría y opción, y aseguras el cupo con la primera cuota. El pago se completa hasta el 9 de enero de 2027. Hay 12 cupos en total, por orden de reserva.</span><span lang="en">Choose your category and option, and secure your place with the first instalment. Full payment is due by January 9, 2027. There are 12 places in total, first come, first served.</span><span lang="pt">Você escolhe a categoria e a opção, e garante a vaga com a primeira parcela. O pagamento é concluído até 9 de janeiro de 2027. São 12 vagas no total, por ordem de reserva.</span></p></details>
+  <details><summary><span lang="es">¿Hay opción con hotel?</span><span lang="en">Is there a hotel option?</span><span lang="pt">Há opção com hotel?</span></summary><p><span lang="es">Sí. Hay una opción con hotel 3 estrellas y traslados internos, disponible hasta el 30 de noviembre de 2026, y otra sin hotel ni traslados. Escríbenos y te mandamos el detalle.</span><span lang="en">Yes. There is an option with a 3-star hotel and local transfers, available until November 30, 2026, and one without hotel or transfers. Message us for details.</span><span lang="pt">Sim. Há uma opção com hotel 3 estrelas e traslados internos, disponível até 30 de novembro de 2026, e outra sem hotel nem traslados. Escreva para nós e enviamos os detalhes.</span></p></details>
+  <details><summary><span lang="es">¿Está incluido el viaje hasta La Serena?</span><span lang="en">Is travel to La Serena included?</span><span lang="pt">A viagem até La Serena está incluída?</span></summary><p><span lang="es">No. Cada delegación organiza su viaje hasta La Serena.</span><span lang="en">No. Each team arranges its own travel to La Serena.</span><span lang="pt">Não. Cada delegação organiza sua viagem até La Serena.</span></p></details>
+  <details><summary><span lang="es">¿Qué incluye el cuerpo técnico?</span><span lang="en">What does the coaching staff get?</span><span lang="pt">O que a comissão técnica recebe?</span></summary><p><span lang="es">El cuerpo técnico vive todo el torneo con su plantel, más una experiencia de entrenador profesional: credencial con acceso al banco, conferencia de prensa, premio al mejor DT y más.</span><span lang="en">The coaching staff lives the whole tournament with their squad, plus a professional coaching experience: bench credential, press conference, best coach award and more.</span><span lang="pt">A comissão técnica vive todo o torneio com seu elenco, mais uma experiência de técnico profissional: credencial com acesso ao banco, coletiva de imprensa, prêmio de melhor técnico e mais.</span></p></details>
  </div>
 </div></section>
 
 <section class="cta">
  <img src="festejo.jpg" alt="" loading="lazy">
  <div class="wrap">
-  <div class="eyebrow reveal"><span lang="es">12 cupos · 3 categorías</span><span lang="en">12 places · 3 categories</span></div>
-  <h2 class="reveal"><span lang="es">Tu final<br><em>te espera.</em></span><span lang="en">Your final<br><em>is waiting.</em></span></h2>
-  <a class="btn btn-gold js-wa reveal" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span lang="es">Escríbenos por WhatsApp</span><span lang="en">Message us on WhatsApp</span></a>
+  <div class="eyebrow reveal"><span lang="es">12 cupos · 3 categorías</span><span lang="en">12 places · 3 categories</span><span lang="pt">12 vagas · 3 categorias</span></div>
+  <h2 class="reveal"><span lang="es">Tu final<br><em>te espera.</em></span><span lang="en">Your final<br><em>is waiting.</em></span><span lang="pt">Sua final<br><em>te espera.</em></span></h2>
+  <a class="btn btn-gold js-wa reveal" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span lang="es">Escríbenos por WhatsApp</span><span lang="en">Message us on WhatsApp</span><span lang="pt">Fale conosco pelo WhatsApp</span></a>
  </div>
 </section>
 
 <footer><div class="wrap">
  <div class="brand"><i></i>COPA LA SERENA <b>2027</b></div>
- <div><span lang="es">14 al 17 de enero de 2027 · La Serena, Chile</span><span lang="en">January 14–17, 2027 · La Serena, Chile</span></div>
+ <div><span lang="es">14 al 17 de enero de 2027 · La Serena, Chile</span><span lang="en">January 14–17, 2027 · La Serena, Chile</span><span lang="pt">14 a 17 de janeiro de 2027 · La Serena, Chile</span></div>
  <div><a href="https://www.instagram.com/laserena2027/" target="_blank" rel="noopener">Instagram @laserena2027</a> · <a class="js-wa" href="#">WhatsApp</a></div>
 </div></footer>
 
@@ -419,8 +419,8 @@ footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
 <script>
 (function(){
  var WA='56952236974';
- var MSG={es:'Hola, quiero inscribir a mi equipo en Copa La Serena 2027.',en:'Hi, I would like to enter my team in Copa La Serena 2027.'};
- var MSGSP={es:'Hola, me interesa ser sponsor de Copa La Serena 2027.',en:'Hi, I am interested in sponsoring Copa La Serena 2027.'};
+ var MSG={es:'Hola, quiero inscribir a mi equipo en Copa La Serena 2027.',en:'Hi, I would like to enter my team in Copa La Serena 2027.',pt:'Olá, quero inscrever meu time na Copa La Serena 2027.'};
+ var MSGSP={es:'Hola, me interesa ser sponsor de Copa La Serena 2027.',en:'Hi, I am interested in sponsoring Copa La Serena 2027.',pt:'Olá, tenho interesse em patrocinar a Copa La Serena 2027.'};
  var root=document.documentElement;
  function setLang(l){root.setAttribute('data-lang',l);root.lang=l;
   document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
