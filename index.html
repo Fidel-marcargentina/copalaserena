@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copa La Serena 2027 · 14–17 enero · La Serena, Chile</title>
+<meta name="description" content="Torneo internacional de fútbol 11. Chile y Argentina. Libre, +28 y +38. Finales en vivo en el Estadio La Portada. 14 al 17 de enero de 2027.">
+<meta property="og:title" content="Copa La Serena 2027">
+<meta property="og:description" content="Tu final en el Estadio La Portada, en vivo y con relatores. 14 al 17 de enero de 2027.">
+<meta property="og:image" content="https://copalaserena.cl/faro.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%230B0B0B'/><path d='M26 54h12l-2-30h-8z' fill='%23C9A227'/><rect x='27' y='16' width='10' height='8' fill='%23F2EEE6'/></svg>">
+<style>
+@font-face{font-family:'Bebas Neue';src:url(bebas.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Barlow Condensed';src:url(bc500.woff2) format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Barlow Condensed';src:url(bc600.woff2) format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'Barlow Condensed';src:url(bc700.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Barlow';src:url(b400.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Barlow';src:url(b500.woff2) format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Barlow';src:url(b600.woff2) format('woff2');font-weight:600;font-display:swap}
+:root{--bk:#0B0B0B;--bk2:#141412;--line:#2A2925;--gold:#C9A227;--gold2:#E6C65A;--bone:#F2EEE6;--grey:#A29C8F;--ff-d:'Bebas Neue',Impact,sans-serif;--ff-c:'Barlow Condensed',sans-serif;--ff-b:'Barlow',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--bk);color:var(--bone);font-family:var(--ff-b);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+html[data-lang=es] [lang=en],html[data-lang=en] [lang=es]{display:none!important}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.eyebrow{font-family:var(--ff-c);font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:14px;color:var(--gold);display:flex;align-items:center;gap:14px}
+.eyebrow::before{content:"";width:46px;height:2px;background:var(--gold)}
+h2{font-family:var(--ff-d);font-weight:400;font-size:clamp(52px,8vw,104px);line-height:.9;letter-spacing:.01em;margin:18px 0 22px}
+h2 em{font-style:normal;color:var(--gold)}
+.lead{color:#CFC9BC;max-width:620px;font-size:18px}
+section{padding:120px 0;position:relative}
+.btn{display:inline-flex;align-items:center;gap:12px;font-family:var(--ff-c);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:15px;padding:18px 28px;border:1.5px solid var(--gold);transition:.25s}
+.btn-gold{background:linear-gradient(135deg,var(--gold2),var(--gold) 55%,#9C7B16);color:var(--bk);border-color:transparent}
+.btn-gold:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn-ghost:hover{background:rgba(201,162,39,.12)}
+.wa{width:18px;height:18px}
+/* nav */
+nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s}
+nav.solid{background:rgba(11,11,11,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{font-family:var(--ff-d);font-size:28px;letter-spacing:.06em;display:flex;align-items:center;gap:12px}
+.brand b{font-weight:400;color:var(--gold)}
+.brand i{width:10px;height:28px;background:linear-gradient(var(--bone) 0 30%,var(--gold) 30%);display:block}
+.links{display:flex;gap:30px;font-family:var(--ff-c);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:14px;color:#D9D3C6}
+.links a:hover{color:var(--gold)}
+.nav-r{display:flex;align-items:center;gap:14px}
+.lang{display:flex;border:1px solid var(--line);font-family:var(--ff-c);font-weight:700;font-size:13px;letter-spacing:.1em}
+.lang button{background:none;border:0;color:var(--grey);padding:8px 11px;cursor:pointer;font:inherit}
+.lang button.on{background:var(--gold);color:var(--bk)}
+.nav-cta{padding:11px 18px;font-size:13px}
+/* hero */
+.hero{min-height:100svh;display:flex;align-items:flex-end;padding:130px 0 70px;position:relative;overflow:hidden}
+.hero video,.hero .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,11,.55) 0%,rgba(11,11,11,.25) 35%,rgba(11,11,11,.85) 72%,var(--bk) 100%),radial-gradient(ellipse at 70% 30%,transparent 0,rgba(11,11,11,.5) 70%)}
+.beam{position:absolute;top:-20%;left:50%;width:160vmax;height:160vmax;transform-origin:0 0;background:conic-gradient(from 200deg at 0 0,transparent 0deg,rgba(230,198,90,.13) 8deg,transparent 18deg);animation:sweep 9s ease-in-out infinite alternate;z-index:1;pointer-events:none;mix-blend-mode:screen}
+@keyframes sweep{from{transform:rotate(-12deg)}to{transform:rotate(22deg)}}
+.hero .wrap{position:relative;z-index:2}
+.hero h1{font-family:var(--ff-d);font-weight:400;line-height:.82;font-size:clamp(84px,13.5vw,196px);letter-spacing:.005em;margin:22px 0 10px}
+.hero h1 span{display:block}
+.hero h1 .yr{background:linear-gradient(180deg,var(--gold2),var(--gold) 60%,#8E700F);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-row{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:34px;margin-top:26px}
+.date{font-family:var(--ff-c);font-weight:700;font-size:clamp(22px,2.6vw,30px);letter-spacing:.14em;text-transform:uppercase}
+.date small{display:block;color:var(--gold);font-size:.62em;letter-spacing:.3em;margin-top:4px}
+.cd{display:flex;gap:10px}
+.cd div{min-width:84px;border:1px solid rgba(201,162,39,.45);background:rgba(11,11,11,.55);backdrop-filter:blur(6px);padding:12px 10px 8px;text-align:center}
+.cd b{display:block;font-family:var(--ff-d);font-weight:400;font-size:46px;line-height:1;color:var(--bone)}
+.cd span{font-family:var(--ff-c);font-weight:700;font-size:11px;letter-spacing:.25em;color:var(--gold);text-transform:uppercase}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+/* ticker */
+.ticker{border-block:1px solid var(--line);background:var(--bk2);overflow:hidden;white-space:nowrap}
+.ticker div{display:inline-block;padding:18px 0;animation:tick 38s linear infinite;font-family:var(--ff-d);font-size:26px;letter-spacing:.08em;color:#D9D3C6}
+.ticker em{font-style:normal;color:var(--gold);margin:0 26px}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* road */
+.road{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:56px;background:var(--line);border:1px solid var(--line)}
+.stage{background:var(--bk);position:relative;min-height:470px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;transition:.6s;filter:grayscale(.2)}
+.stage:hover img{opacity:.62;transform:scale(1.04)}
+.stage::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(11,11,11,.95) 85%)}
+.stage .in{position:relative;z-index:1;padding:34px}
+.stage .ph{font-family:var(--ff-c);font-weight:700;letter-spacing:.3em;font-size:13px;color:var(--gold);text-transform:uppercase}
+.stage .day{font-family:var(--ff-d);font-size:92px;line-height:.9;margin:10px 0 6px}
+.stage h3{font-family:var(--ff-c);font-weight:700;font-size:24px;letter-spacing:.06em;text-transform:uppercase}
+.stage p{color:#CFC9BC;font-size:16px;margin-top:8px}
+.stage.final{outline:1.5px solid var(--gold);outline-offset:-1.5px}
+.stage.final .day{color:var(--gold)}
+/* final */
+.final-sec{padding:0;min-height:88vh;display:flex;align-items:center;overflow:hidden}
+.final-sec>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
+.final-sec::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--bk) 0%,rgba(11,11,11,.85) 38%,rgba(11,11,11,.2) 100%),linear-gradient(0deg,var(--bk),transparent 30%,transparent 80%,var(--bk))}
+.final-sec .wrap{position:relative;padding:120px 0}
+.stats{display:grid;grid-template-columns:repeat(4,auto);gap:0;margin-top:44px;width:max-content;max-width:100%;border-top:1px solid var(--line)}
+.stats div{padding:22px 34px 0 0;margin-right:34px}
+.stats b{font-family:var(--ff-d);font-weight:400;font-size:64px;line-height:1;color:var(--gold);display:block}
+.stats span{font-family:var(--ff-c);font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:13px;color:#D9D3C6}
+/* cups */
+.cups{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:22px;margin-top:56px}
+.cup{border:1px solid var(--line);background:radial-gradient(ellipse at 50% 0%,rgba(201,162,39,.16),transparent 60%),var(--bk2);padding:40px 32px 36px;position:relative;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.cup.main{padding:0;overflow:hidden}
+.cup.main img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.75}
+.cup.main::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(11,11,11,.95))}
+.cup.main .in{position:relative;z-index:1;padding:32px}
+.cup .tag{font-family:var(--ff-c);font-weight:700;letter-spacing:.3em;font-size:12px;color:var(--gold);text-transform:uppercase}
+.cup h3{font-family:var(--ff-d);font-weight:400;font-size:58px;line-height:.95;margin:10px 0 8px}
+.cup p{color:#CFC9BC;font-size:16px}
+.cup svg{position:absolute;top:44px;left:32px;width:74px;height:74px;opacity:.95}
+.cups-note{margin-top:28px;color:var(--grey);font-size:15px;max-width:760px}
+/* split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.split>*{min-width:0}
+.split .pic{position:relative;aspect-ratio:4/5;overflow:hidden}
+.split .pic img{width:100%;height:100%;object-fit:cover}
+.split .pic::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(201,162,39,.35)}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:34px 0 24px}
+.cat{border:1px solid var(--line);padding:24px 18px;text-align:center;background:var(--bk2)}
+.cat b{font-family:var(--ff-d);font-weight:400;font-size:64px;line-height:1;color:var(--gold)}
+.cat span{display:block;font-family:var(--ff-c);font-weight:700;letter-spacing:.2em;font-size:13px;text-transform:uppercase;margin-top:6px}
+.list{list-style:none;margin-top:26px;columns:2;column-gap:34px}
+.list li{break-inside:avoid;padding:12px 0 12px 22px;border-bottom:1px solid var(--line);position:relative;font-size:16px;color:#E3DED3}
+.list li::before{content:"";position:absolute;left:0;top:21px;width:9px;height:9px;background:var(--gold)}
+/* dt */
+.dt{background:var(--bk2);border-block:1px solid var(--line)}
+.dt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--line);margin-top:50px;border:1px solid var(--line)}
+.dt-col{background:var(--bk2);padding:30px 26px}
+.dt-col h4{font-family:var(--ff-c);font-weight:700;letter-spacing:.24em;font-size:13px;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.dt-col h5{font-family:var(--ff-d);font-weight:400;font-size:34px;line-height:1;margin-bottom:14px}
+.dt-col ul{list-style:none}
+.dt-col li{padding:9px 0;border-top:1px solid var(--line);font-size:15px;color:#E3DED3}
+/* champion */
+.champ{display:grid;grid-template-columns:1.25fr 1fr;gap:0;border:1px solid var(--gold);margin-top:50px;background:var(--bk2)}
+.champ .media{position:relative;min-height:420px;overflow:hidden}
+.champ .media img,.champ .media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.champ .txt{padding:46px 42px;display:flex;flex-direction:column;justify-content:center}
+.champ .team{font-family:var(--ff-d);font-size:110px;line-height:.85;background:linear-gradient(180deg,var(--gold2),var(--gold) 60%,#8E700F);-webkit-background-clip:text;background-clip:text;color:transparent}
+.score{display:flex;align-items:center;gap:18px;margin:22px 0 14px;font-family:var(--ff-c);font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.score b{font-family:var(--ff-d);font-weight:400;font-size:46px;letter-spacing:.02em;color:var(--bone)}
+.champ p{color:#CFC9BC}
+/* sponsors */
+.sp{background:var(--bk2);border-block:1px solid var(--line)}
+.sp-logos{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--line);border:1px solid var(--line);margin-top:40px}
+.sp-logos>div{background:var(--bk);aspect-ratio:3/2;display:grid;place-items:center;padding:26px}
+.sp-logos img{max-height:70px;width:auto;filter:grayscale(1) brightness(1.6);opacity:.85;transition:.3s}
+.sp-logos>div:hover img{filter:none;opacity:1}
+.sp-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:start;margin-top:10px}
+.sp-items{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);border:1px solid var(--line)}
+.sp-items div{background:var(--bk2);padding:26px 24px}
+.sp-items b{display:block;font-family:var(--ff-c);font-weight:700;font-size:20px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+.sp-items span{color:#CFC9BC;font-size:15px}
+.sp-items i{display:block;width:26px;height:3px;background:var(--gold);margin-bottom:16px}
+@media (max-width:960px){.sp-grid{grid-template-columns:1fr;gap:36px}.sp-logos{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.sp-items{grid-template-columns:1fr}}
+/* faq */
+.faq{max-width:860px;margin-top:40px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:24px 40px 24px 0;font-family:var(--ff-c);font-weight:700;font-size:22px;letter-spacing:.04em;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:16px;font-family:var(--ff-d);font-size:36px;color:var(--gold);transition:.2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 24px;color:#CFC9BC;max-width:720px}
+/* cta */
+.cta{text-align:center;padding:150px 0;overflow:hidden}
+.cta>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.32}
+.cta::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(11,11,11,.35),var(--bk) 75%)}
+.cta .wrap{position:relative}
+.cta h2{font-size:clamp(64px,11vw,160px)}
+.cta .eyebrow{justify-content:center}
+.cta .eyebrow::after{content:"";width:46px;height:2px;background:var(--gold)}
+footer{border-top:1px solid var(--line);padding:46px 0;color:var(--grey);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
+footer a{color:var(--bone)}footer a:hover{color:var(--gold)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease}
+.reveal.in{opacity:1;transform:none}
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.wa-float svg{width:30px;height:30px}
+@media (max-width:960px){
+ .links{display:none}
+ section{padding:84px 0}
+ .road,.cups,.split,.champ{grid-template-columns:1fr}
+ .dt-grid{grid-template-columns:1fr 1fr}
+ .stage{min-height:360px}
+ .stats{grid-template-columns:1fr 1fr;width:100%}
+ .list{columns:1}
+ .champ .media{min-height:260px}
+ .split{gap:36px}
+}
+@media (max-width:560px){
+ .wrap{width:calc(100% - 32px)}
+ .nav-cta{display:none}
+ .cd div{min-width:0;flex:1}
+ .cd b{font-size:34px}
+ .dt-grid{grid-template-columns:1fr}
+ .cat b{font-size:44px}
+ .cat{padding:18px 8px}
+ .champ .team{font-size:84px}
+ .champ .txt{padding:32px 24px}
+ .hero{padding-bottom:40px}
+ .btn{padding:16px 20px;font-size:14px}
+}
+@media (prefers-reduced-motion:reduce){.beam,.ticker div{animation:none}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav"><div class="wrap">
+ <a href="#top" class="brand"><i></i>COPA LA SERENA <b>2027</b></a>
+ <div class="links">
+  <a href="#camino"><span lang="es">El camino</span><span lang="en">The road</span></a>
+  <a href="#final"><span lang="es">La final</span><span lang="en">The final</span></a>
+  <a href="#copas"><span lang="es">Las copas</span><span lang="en">The cups</span></a>
+  <a href="#categorias"><span lang="es">Categorías</span><span lang="en">Categories</span></a>
+  <a href="#campeon"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span></a>
+  <a href="#sponsors">Sponsors</a>
+  <a href="#faq">FAQ</a>
+ </div>
+ <div class="nav-r">
+  <div class="lang"><button data-l="es" class="on">ES</button><button data-l="en">EN</button></div>
+  <a class="btn btn-gold nav-cta js-wa" href="#"><span lang="es">Inscríbete</span><span lang="en">Sign up</span></a>
+ </div>
+</div></nav>
+
+<header class="hero" id="top">
+ <img class="poster" src="faro.jpg" alt="">
+ <video autoplay muted loop playsinline poster="faro.jpg"><source src="hero.mp4" type="video/mp4"></video>
+ <div class="beam"></div>
+ <div class="wrap">
+  <div class="eyebrow"><span lang="es">Torneo internacional de fútbol 11 · Chile · Argentina</span><span lang="en">International 11-a-side tournament · Chile · Argentina</span></div>
+  <h1><span>Copa</span><span>La Serena</span><span class="yr">2027</span></h1>
+  <div class="hero-row">
+   <div class="date"><span lang="es">14 — 17 de enero</span><span lang="en">January 14 — 17</span><small><span lang="es">La Serena · Chile</span><span lang="en">La Serena · Chile</span></small></div>
+   <div class="cd" id="cd" aria-label="Cuenta regresiva">
+    <div><b id="cd-d">00</b><span lang="es">Días</span><span lang="en">Days</span></div>
+    <div><b id="cd-h">00</b><span lang="es">Horas</span><span lang="en">Hours</span></div>
+    <div><b id="cd-m">00</b><span lang="es">Min</span><span lang="en">Min</span></div>
+    <div><b id="cd-s">00</b><span lang="es">Seg</span><span lang="en">Sec</span></div>
+   </div>
+  </div>
+  <div class="hero-cta">
+   <a class="btn btn-gold js-wa" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg><span lang="es">Inscribe a tu equipo</span><span lang="en">Enter your team</span></a>
+   <a class="btn btn-ghost" href="#campeon"><span lang="es">Mira la final 2026</span><span lang="en">Watch the 2026 final</span></a>
+  </div>
+ </div>
+</header>
+
+<div class="ticker" aria-hidden="true"><div>
+ <span lang="es">14–17 enero<em>✦</em>Estadio La Portada<em>✦</em>Finales en vivo<em>✦</em>Libre · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Tres copas<em>✦</em>14–17 enero<em>✦</em>Estadio La Portada<em>✦</em>Finales en vivo<em>✦</em>Libre · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Tres copas<em>✦</em></span>
+ <span lang="en">January 14–17<em>✦</em>Estadio La Portada<em>✦</em>Live finals<em>✦</em>Open · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Three cups<em>✦</em>January 14–17<em>✦</em>Estadio La Portada<em>✦</em>Live finals<em>✦</em>Open · +28 · +38<em>✦</em>Chile · Argentina<em>✦</em>Three cups<em>✦</em></span>
+</div></div>
+
+<section id="camino"><div class="wrap">
+ <div class="eyebrow reveal"><span lang="es">El camino a la final</span><span lang="en">The road to the final</span></div>
+ <h2 class="reveal"><span lang="es">Cuatro días.<br><em>Una final.</em></span><span lang="en">Four days.<br><em>One final.</em></span></h2>
+ <p class="lead reveal"><span lang="es">De la presentación en el Faro a la final en un estadio profesional. Así se vive Copa La Serena.</span><span lang="en">From the opening night at the Lighthouse to a final in a professional stadium. This is Copa La Serena.</span></p>
+ <div class="road">
+  <div class="stage reveal"><img src="faro.jpg" alt="Faro Monumental de La Serena" loading="lazy"><div class="in">
+   <div class="ph"><span lang="es">Fase 1 · Jueves</span><span lang="en">Stage 1 · Thursday</span></div><div class="day">14</div>
+   <h3><span lang="es">Presentación oficial</span><span lang="en">Official opening</span></h3>
+   <p><span lang="es">Check-in, entrega del kit oficial y presentación de los equipos en el Faro Monumental, con cocktail de bienvenida.</span><span lang="en">Check-in, official kit and team presentation at the Faro Monumental, with a welcome cocktail.</span></p></div></div>
+  <div class="stage reveal"><img src="duelo.jpg" alt="" loading="lazy"><div class="in">
+   <div class="ph"><span lang="es">Fase 2 · Viernes</span><span lang="en">Stage 2 · Friday</span></div><div class="day">15</div>
+   <h3><span lang="es">Predio Los Llanos</span><span lang="en">Los Llanos grounds</span></h3>
+   <p><span lang="es">Dos partidos por equipo, con ternas arbitrales, hidratación y kinesiólogos.</span><span lang="en">Two matches per team, with full referee crews, hydration and physios.</span></p></div></div>
+  <div class="stage final reveal"><img src="estadio.jpg" alt="Estadio La Portada" loading="lazy"><div class="in">
+   <div class="ph"><span lang="es">La final · Sábado</span><span lang="en">The final · Saturday</span></div><div class="day">16</div>
+   <h3>Estadio La Portada</h3>
+   <p><span lang="es">Cada categoría juega su final en el estadio, en vivo y con relatores. Premiación en cancha y cena de despedida.</span><span lang="en">Each category plays its final in the stadium, broadcast live with commentators. On-pitch ceremony and farewell dinner.</span></p></div></div>
+ </div>
+</div></section>
+
+<section class="final-sec" id="final">
+ <img src="estadio.jpg" alt="" loading="lazy">
+ <div class="wrap">
+  <div class="eyebrow reveal"><span lang="es">Sábado 16 · Estadio La Portada</span><span lang="en">Saturday 16 · Estadio La Portada</span></div>
+  <h2 class="reveal"><span lang="es">Tu final.<br><em>En vivo.</em></span><span lang="en">Your final.<br><em>Live.</em></span></h2>
+  <p class="lead reveal"><span lang="es">Un estadio profesional, cámaras, relatores y entrevistas en cancha. La final que siempre viste por televisión, ahora la juegas tú.</span><span lang="en">A professional stadium, cameras, commentators and pitch-side interviews. The kind of final you always watched on TV — now you play it.</span></p>
+  <div class="stats reveal">
+   <div><b>3</b><span lang="es">Cámaras en vivo</span><span lang="en">Live cameras</span></div>
+   <div><b>3</b><span lang="es">Copas</span><span lang="en">Cups</span></div>
+   <div><b>3</b><span lang="es">Finales</span><span lang="en">Finals</span></div>
+   <div><b>1</b><span lang="es">Estadio</span><span lang="en">Stadium</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="copas"><div class="wrap">
+ <div class="eyebrow reveal"><span lang="es">Los trofeos</span><span lang="en">The trophies</span></div>
+ <h2 class="reveal"><span lang="es">Tres copas.<br><em>Tu nombre en una.</em></span><span lang="en">Three cups.<br><em>Your name on one.</em></span></h2>
+ <div class="cups">
+  <div class="cup main reveal"><img src="copa.jpg" alt="Copa La Serena" loading="lazy"><div class="in">
+   <div class="tag"><span lang="es">La ciudad</span><span lang="en">The city</span></div><h3>Copa<br>La Serena</h3>
+   <p><span lang="es">El trofeo que le da nombre al torneo.</span><span lang="en">The trophy that gives the tournament its name.</span></p></div></div>
+  <div class="cup reveal"><svg viewBox="0 0 64 64" fill="none" stroke="#C9A227" stroke-width="2.5"><path d="M4 50l16-24 10 14 8-10 22 20z"/><circle cx="46" cy="14" r="6"/></svg>
+   <div class="tag"><span lang="es">El valle</span><span lang="en">The valley</span></div><h3>Copa<br>Elqui</h3>
+   <p><span lang="es">Inspirada en el Valle de Elqui, el corazón de la región.</span><span lang="en">Inspired by the Elqui Valley, the heart of the region.</span></p></div>
+  <div class="cup reveal"><svg viewBox="0 0 64 64" fill="none" stroke="#C9A227" stroke-width="2.5"><path d="M2 30c8-8 14-8 20 0s12 8 20 0 14-8 20 0M2 46c8-8 14-8 20 0s12 8 20 0 14-8 20 0"/></svg>
+   <div class="tag"><span lang="es">El mar</span><span lang="en">The sea</span></div><h3>Copa<br>Pacífico</h3>
+   <p><span lang="es">Un homenaje al océano que mira la ciudad.</span><span lang="en">A tribute to the ocean the city looks out on.</span></p></div>
+ </div>
+ <p class="cups-note reveal"><span lang="es">Cada copa es exclusiva, con diseño propio, y lleva una chapa que registra al campeón de cada año. Además, medalla conmemorativa para cada jugador, reconocimientos individuales y premiación en el estadio.</span><span lang="en">Each cup is unique, with its own design and a plate that records every year's champion. Plus a commemorative medal for every player, individual awards and an on-pitch ceremony.</span></p>
+</div></section>
+
+<section id="categorias" style="padding-top:40px"><div class="wrap split">
+ <div class="pic reveal"><img src="accion.jpg" alt="" loading="lazy"></div>
+ <div>
+  <div class="eyebrow reveal"><span lang="es">Categorías</span><span lang="en">Categories</span></div>
+  <h2 class="reveal"><span lang="es">Elige<br><em>tu final.</em></span><span lang="en">Choose<br><em>your final.</em></span></h2>
+  <div class="cats reveal">
+   <div class="cat"><b>Libre</b><span lang="es">Todo competidor</span><span lang="en">Open</span></div>
+   <div class="cat"><b>+28</b><span>Senior</span></div>
+   <div class="cat"><b>+38</b><span>Super Senior</span></div>
+  </div>
+  <p class="lead reveal"><span lang="es">Planteles de 13 a 20 jugadores. La edad se cuenta por año: alcanza con cumplir 28 o 38 durante 2027. 12 cupos en total, por orden de reserva.</span><span lang="en">Squads of 13 to 20 players. Age is counted by year: you only need to turn 28 or 38 during 2027. 12 places in total, first come, first served.</span></p>
+  <ul class="list reveal">
+   <li><span lang="es">Kit oficial: camiseta, short y credencial</span><span lang="en">Official kit: shirt, shorts and credential</span></li>
+   <li><span lang="es">Canchas, ternas arbitrales y pelotas</span><span lang="en">Pitches, referee crews and balls</span></li>
+   <li><span lang="es">Kinesiólogos y zona de relajación</span><span lang="en">Physios and recovery area</span></li>
+   <li><span lang="es">Ambulancia en las canchas</span><span lang="en">Ambulance on site</span></li>
+   <li><span lang="es">Seguro individual</span><span lang="en">Individual insurance</span></li>
+   <li><span lang="es">Almuerzos y cena de despedida</span><span lang="en">Lunches and farewell dinner</span></li>
+   <li><span lang="es">Fotos y video profesional</span><span lang="en">Professional photo and video</span></li>
+   <li><span lang="es">Opción con hotel y traslados internos</span><span lang="en">Option with hotel and local transfers</span></li>
+  </ul>
+ </div>
+</div></section>
+
+<section class="dt"><div class="wrap">
+ <div class="eyebrow reveal"><span lang="es">Cuerpo técnico</span><span lang="en">Coaching staff</span></div>
+ <h2 class="reveal"><span lang="es">El banco también<br><em>vive la final.</em></span><span lang="en">The bench lives<br><em>the final too.</em></span></h2>
+ <div class="dt-grid reveal">
+  <div class="dt-col"><h4><span lang="es">Jueves</span><span lang="en">Thursday</span></h4><h5><span lang="es">La previa</span><span lang="en">The build-up</span></h5><ul>
+   <li><span lang="es">Congreso técnico con organización y árbitros</span><span lang="en">Technical meeting with organisers and referees</span></li>
+   <li><span lang="es">Kit oficial de DT</span><span lang="en">Official coach kit</span></li>
+   <li><span lang="es">Polera piqué con su nombre</span><span lang="en">Polo shirt with their name</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Viernes</span><span lang="en">Friday</span></h4><h5><span lang="es">Prepara la final</span><span lang="en">Prepare the final</span></h5><ul>
+   <li><span lang="es">Foto oficial del cuerpo técnico</span><span lang="en">Official staff photo</span></li>
+   <li><span lang="es">Video de uno de sus partidos para análisis</span><span lang="en">Video of one of their matches for analysis</span></li>
+   <li><span lang="es">Sala reservada en la noche para la charla técnica</span><span lang="en">Private room at night for the team talk</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Sábado</span><span lang="en">Saturday</span></h4><h5><span lang="es">Dirige en La Portada</span><span lang="en">Coach at La Portada</span></h5><ul>
+   <li><span lang="es">Credencial con acceso al banco y zona técnica</span><span lang="en">Credential with bench and technical-area access</span></li>
+   <li><span lang="es">Conferencia de prensa pre match</span><span lang="en">Pre-match press conference</span></li>
+   <li><span lang="es">Firma la planilla y entrega la cinta al capitán</span><span lang="en">Signs the team sheet and hands the armband to the captain</span></li>
+   <li><span lang="es">DT con micrófono en la transmisión</span><span lang="en">Coach mic'd up on the broadcast</span></li></ul></div>
+  <div class="dt-col"><h4><span lang="es">Después del pitazo</span><span lang="en">After the whistle</span></h4><h5><span lang="es">Habla como profesional</span><span lang="en">Speak like a pro</span></h5><ul>
+   <li><span lang="es">Entrevista post partido</span><span lang="en">Post-match interview</span></li>
+   <li><span lang="es">Premio al mejor DT</span><span lang="en">Best coach award</span></li>
+   <li><span lang="es">Mesa de entrenadores con Matías Rodríguez</span><span lang="en">Coaches' table with Matías Rodríguez</span></li></ul></div>
+ </div>
+</div></section>
+
+<section id="campeon"><div class="wrap">
+ <div class="eyebrow reveal"><span lang="es">Campeón 2026</span><span lang="en">2026 champion</span></div>
+ <h2 class="reveal"><span lang="es">Así se gana<br><em>en La Portada.</em></span><span lang="en">This is how you win<br><em>at La Portada.</em></span></h2>
+ <div class="champ reveal">
+  <div class="media"><video muted loop playsinline preload="none" poster="campeon.jpg" id="champVid"><source src="hero.mp4" type="video/mp4"></video></div>
+  <div class="txt">
+   <div class="eyebrow"><span lang="es">Final 2026</span><span lang="en">2026 final</span></div>
+   <div class="team">Birra FC</div>
+   <div class="score"><b>3–3</b><span lang="es">Birra FC vs C.S. Dep. Argentino</span><span lang="en">Birra FC vs C.S. Dep. Argentino</span></div>
+   <p><span lang="es">Un 3 a 3 en los 90 y diez penales en el Estadio La Portada. Birra FC ganó la serie 5 a 4 y levantó la copa. En enero, el próximo puede ser tu equipo.</span><span lang="en">3–3 after 90 minutes and ten penalties at Estadio La Portada. Birra FC won the shoot-out 5–4 and lifted the cup. In January, it could be your team.</span></p>
+  </div>
+ </div>
+</div></section>
+
+<section class="sp" id="sponsors"><div class="wrap">
+ <!-- SPONSORS 2027: cuando haya sponsors confirmados, quitar "hidden" y reemplazar cada bloque por <div><img src="sponsors-logo.png" alt="Nombre"></div> -->
+ <div id="sp-oficiales" hidden>
+  <div class="eyebrow"><span lang="es">Sponsors oficiales</span><span lang="en">Official sponsors</span></div>
+  <div class="sp-logos">
+   <!-- <div><img src="sponsors-ejemplo.png" alt="Sponsor"></div> -->
+  </div>
+ </div>
+ <div class="sp-grid" style="margin-top:0">
+  <div>
+   <div class="eyebrow reveal"><span lang="es">Sponsors</span><span lang="en">Sponsors</span></div>
+   <h2 class="reveal"><span lang="es">Tu marca<br><em>en la final.</em></span><span lang="en">Your brand<br><em>in the final.</em></span></h2>
+   <p class="lead reveal"><span lang="es">Copa La Serena reúne a equipos de Chile y Argentina durante cuatro días, con presentación en el Faro Monumental y finales en el Estadio La Portada, transmitidas en vivo. Un público adulto, que viaja con su plantel y con su familia.</span><span lang="en">Copa La Serena brings together teams from Chile and Argentina for four days, with an opening night at the Faro Monumental and finals at Estadio La Portada, broadcast live. An adult audience travelling with their squads and families.</span></p>
+   <div class="hero-cta reveal"><a class="btn btn-gold js-wa-sp" href="#"><span lang="es">Quiero ser sponsor</span><span lang="en">Become a sponsor</span></a></div>
+  </div>
+  <div class="sp-items reveal">
+   <div><i></i><b><span lang="es">Transmisión</span><span lang="en">Broadcast</span></b><span lang="es">Presencia en la transmisión en vivo de las finales.</span><span lang="en">Presence in the live broadcast of the finals.</span></div>
+   <div><i></i><b><span lang="es">Estadio</span><span lang="en">Stadium</span></b><span lang="es">Tu marca en el Estadio La Portada el día de las finales.</span><span lang="en">Your brand at Estadio La Portada on finals day.</span></div>
+   <div><i></i><b><span lang="es">Faro Monumental</span><span lang="en">Faro Monumental</span></b><span lang="es">Activaciones en la presentación oficial y el cocktail.</span><span lang="en">Activations at the official opening and cocktail.</span></div>
+   <div><i></i><b><span lang="es">Redes y contenido</span><span lang="en">Social and content</span></b><span lang="es">Presencia en @laserena2027 y en el contenido del torneo.</span><span lang="en">Presence on @laserena2027 and tournament content.</span></div>
+  </div>
+ </div>
+</div></section>
+
+<section id="faq" style="padding-top:20px"><div class="wrap">
+ <div class="eyebrow reveal"><span lang="es">Preguntas frecuentes</span><span lang="en">FAQ</span></div>
+ <h2 class="reveal"><span lang="es">Todo lo que<br><em>necesitas saber.</em></span><span lang="en">Everything<br><em>you need to know.</em></span></h2>
+ <div class="faq">
+  <details><summary><span lang="es">¿Cuántos jugadores puede tener el plantel?</span><span lang="en">How many players can a squad have?</span></summary><p><span lang="es">Entre 13 y 20 jugadores por equipo.</span><span lang="en">Between 13 and 20 players per team.</span></p></details>
+  <details><summary><span lang="es">¿Cómo se cuenta la edad?</span><span lang="en">How is age counted?</span></summary><p><span lang="es">Por año: para +28 alcanza con cumplir 28 durante 2027, y para +38, con cumplir 38.</span><span lang="en">By year: for +28 you only need to turn 28 during 2027, and for +38, turn 38.</span></p></details>
+  <details><summary><span lang="es">¿Cómo se reserva el cupo?</span><span lang="en">How do we book a place?</span></summary><p><span lang="es">Eliges categoría y opción, y aseguras el cupo con la primera cuota. El pago se completa hasta el 9 de enero de 2027. Hay 12 cupos en total, por orden de reserva.</span><span lang="en">Choose your category and option, and secure your place with the first instalment. Full payment is due by January 9, 2027. There are 12 places in total, first come, first served.</span></p></details>
+  <details><summary><span lang="es">¿Hay opción con hotel?</span><span lang="en">Is there a hotel option?</span></summary><p><span lang="es">Sí. Hay una opción con hotel 3 estrellas y traslados internos, disponible hasta el 30 de noviembre de 2026, y otra sin hotel ni traslados. Escríbenos y te mandamos el detalle.</span><span lang="en">Yes. There is an option with a 3-star hotel and local transfers, available until November 30, 2026, and one without hotel or transfers. Message us for details.</span></p></details>
+  <details><summary><span lang="es">¿Está incluido el viaje hasta La Serena?</span><span lang="en">Is travel to La Serena included?</span></summary><p><span lang="es">No. Cada delegación organiza su viaje hasta La Serena.</span><span lang="en">No. Each team arranges its own travel to La Serena.</span></p></details>
+  <details><summary><span lang="es">¿Qué incluye el cuerpo técnico?</span><span lang="en">What does the coaching staff get?</span></summary><p><span lang="es">El cuerpo técnico vive todo el torneo con su plantel, más una experiencia de entrenador profesional: credencial con acceso al banco, conferencia de prensa, premio al mejor DT y más.</span><span lang="en">The coaching staff lives the whole tournament with their squad, plus a professional coaching experience: bench credential, press conference, best coach award and more.</span></p></details>
+ </div>
+</div></section>
+
+<section class="cta">
+ <img src="festejo.jpg" alt="" loading="lazy">
+ <div class="wrap">
+  <div class="eyebrow reveal"><span lang="es">12 cupos · 3 categorías</span><span lang="en">12 places · 3 categories</span></div>
+  <h2 class="reveal"><span lang="es">Tu final<br><em>te espera.</em></span><span lang="en">Your final<br><em>is waiting.</em></span></h2>
+  <a class="btn btn-gold js-wa reveal" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span lang="es">Escríbenos por WhatsApp</span><span lang="en">Message us on WhatsApp</span></a>
+ </div>
+</section>
+
+<footer><div class="wrap">
+ <div class="brand"><i></i>COPA LA SERENA <b>2027</b></div>
+ <div><span lang="es">14 al 17 de enero de 2027 · La Serena, Chile</span><span lang="en">January 14–17, 2027 · La Serena, Chile</span></div>
+ <div><a href="https://www.instagram.com/laserena2027/" target="_blank" rel="noopener">Instagram @laserena2027</a> · <a class="js-wa" href="#">WhatsApp</a></div>
+</div></footer>
+
+<a class="wa-float js-wa" href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg></a>
+
+<script>
+(function(){
+ var WA='56952236974';
+ var MSG={es:'Hola, quiero inscribir a mi equipo en Copa La Serena 2027.',en:'Hi, I would like to enter my team in Copa La Serena 2027.'};
+ var MSGSP={es:'Hola, me interesa ser sponsor de Copa La Serena 2027.',en:'Hi, I am interested in sponsoring Copa La Serena 2027.'};
+ var root=document.documentElement;
+ function setLang(l){root.setAttribute('data-lang',l);root.lang=l;
+  document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
+  document.querySelectorAll('.js-wa').forEach(function(a){a.href='https://wa.me/'+WA+'?text='+encodeURIComponent(MSG[l]);a.target='_blank';a.rel='noopener'});
+  document.querySelectorAll('.js-wa-sp').forEach(function(a){a.href='https://wa.me/'+WA+'?text='+encodeURIComponent(MSGSP[l]);a.target='_blank';a.rel='noopener'});
+  try{localStorage.setItem('cls-lang',l)}catch(e){}}
+ var saved=null;try{saved=localStorage.getItem('cls-lang')}catch(e){}
+ setLang(saved||'es');
+ document.querySelectorAll('.lang button').forEach(function(b){b.onclick=function(){setLang(b.dataset.l)}});
+ var T=new Date('2027-01-14T00:00:00-03:00').getTime();
+ function pad(n){return String(n).padStart(2,'0')}
+ function tick(){var d=Math.max(0,T-Date.now());
+  document.getElementById('cd-d').textContent=pad(Math.floor(d/864e5));
+  document.getElementById('cd-h').textContent=pad(Math.floor(d/36e5)%24);
+  document.getElementById('cd-m').textContent=pad(Math.floor(d/6e4)%60);
+  document.getElementById('cd-s').textContent=pad(Math.floor(d/1e3)%60)}
+ tick();setInterval(tick,1000);
+ var nav=document.getElementById('nav');
+ function onS(){nav.classList.toggle('solid',scrollY>40)}onS();addEventListener('scroll',onS,{passive:true});
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+ document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+ var cv=document.getElementById('champVid');
+ new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){cv.play().catch(function(){})}else{cv.pause()}})},{threshold:.3}).observe(cv);
+})();
+</script>
+</body>
+</html>
